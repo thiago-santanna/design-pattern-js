@@ -5,3 +5,9 @@ import FlysFactory from "./FlysFactory.js";
 
 const flyBanshee = FlysFactory.create(Banshee.id);
 flyBanshee.shooter();
+
+const flyA380 = FlysFactory.create(A380.id);
+flyA380.shooter();
+
+const flyB747 = FlysFactory.create(B747.id);
+flyB747.shooter();
